@@ -10,7 +10,7 @@ Among the recent flourishing studies on cross-modal vision-language understandin
 
 ## **Dataset**
 
-Please download the **pre-computed features** and **original videos** from [here]([https://www.alipan.com/s/diEEWQc5rPq](https://drive.google.com/drive/folders/17xu7AGS1VZ8m9J4MeZEzH2515I9MiAPg?usp=drive_link)),
+Please download the **pre-computed features** and **original videos** from [here](https://drive.google.com/drive/folders/17xu7AGS1VZ8m9J4MeZEzH2515I9MiAPg?usp=drive_link),
 
 There are 3 folders:
 
