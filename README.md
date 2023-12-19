@@ -6,7 +6,7 @@ The project is described in our paper [IntentQA: Context-aware Video Intent Reas
 
 Among the recent flourishing studies on cross-modal vision-language understanding, video question answering (VideoQA) is one of the most prominent to support interactive AI with the ability to understand and communicate dynamic visual scenarios via natural languages. Despite its popularity, VideoQA is still quite challenging, because it demands the models to comprehensively understand the videos to correctly answer questions, which include not only factual but also inferential ones. The former directly asks about the visual facts (e.g., humans, objects, actions, etc.), while the latter (inference VideoQA) requires logical reasoning of latent variables (e.g., the spatial, temporal and causal relationships among entities, mental states, etc.) beyond observed visual facts . The future trend for AI is to study inference VideoQA beyond factoid VideoQA , requiring more reasoning ability beyond mere recognition. In this paper, we propose a new task called IntentQA, i.e., a special kind of inference VideoQA that focuses on intent reasoning. 
 
-![img](https://0x0007e3.feishu.cn/space/api/box/stream/download/asynccode/?code=NTI4MGIyYWJjYmFkMmQzODBiNjU2ZGQ2Y2M1NmYxOTdfV2lSWk96WVRtZzdjeDRVaW1FTzFjYXpvNmtUTHJrWU1fVG9rZW46TUZvcWJidnB4b2N3YXF4TG1CS2NnQ3lsbk9iXzE3MDI5NzczMzE6MTcwMjk4MDkzMV9WNA)
+![img](img/model.png)
 
 ## **Dataset**
 
@@ -51,7 +51,7 @@ Here is a [demo](https://vimeo.com/896083218?share=copy) that briefly summarizes
 
 ## **Citation**
 
-```JSON
+```
 @InProceedings{Li_2023_ICCV,
     author    = {Li, Jiapeng and Wei, Ping and Han, Wenjuan and Fan, Lifeng},
     title     = {IntentQA: Context-aware Video Intent Reasoning},
