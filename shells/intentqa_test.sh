@@ -15,7 +15,7 @@ CUDA_VISIBLE_DEVICES=$GPU python main.py --checkpoint_dir=intentqa \
 	--embd_dim=512 \
 	--ff_dim=1024 \
 	--dropout=0.3 \
-	--save_dir='../data/save_models/intentqa/VGT_B10_our_dataset_1/' \
-	--pretrain_path=../data/save_models/intentqa/VGT_B10_our_dataset_1/best_model.pth \
-#	--GPT_result='../data/save_models/intentqa/VGT_new_test_base/test-res.json'
+	--save_dir='../data/save_models/intentqa/test/' \
+	--pretrain_path=../data/save_models/intentqa/test/best_model.pth \
+#	--GPT_result='../data/save_models/intentqa/test/test-res.json'
 	#--CM_PT=1
