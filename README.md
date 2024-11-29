@@ -57,8 +57,22 @@ git clone https://github.com/sail-sg/VGT.git
 pip install -r requirements.txt
 ```
 
-## **Citation**
+## **Inference and Evaluation**
+```bash
+./shell/intentqa_test.sh 0
+python eval_intentqa.py --folder your_work_dir --mode test
+```
 
+## **Using GPT**
+Add the following to `intentqa_test.sh`:
+```bash
+--GPT_result='../data/save_models/intentqa/Your_GPT_result_DIR/test-res.json'
+```
+You can also use my result file in the [**Results**](#results) section.
+
+
+## **Citation**
+This repository is developed based on [VGT](https://github.com/sail-sg/VGT). We sincerely thank them for their outstanding work.
 ```
 @InProceedings{Li_2023_ICCV,
     author    = {Li, Jiapeng and Wei, Ping and Han, Wenjuan and Fan, Lifeng},
@@ -67,5 +81,13 @@ pip install -r requirements.txt
     month     = {October},
     year      = {2023},
     pages     = {11963-11974}
+}
+@inproceedings{xiao2022video,
+  title={Video Graph Transformer for Video Question Answering},
+  author={Xiao, Junbin and Zhou, Pan and Chua, Tat-Seng and Yan, Shuicheng},
+  booktitle={European Conference on Computer Vision},
+  pages={39--58},
+  year={2022},
+  organization={Springer}
 }
 ```
