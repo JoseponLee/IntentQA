@@ -49,6 +49,14 @@ In each annotation file, the initial columns follow the same format as in `NExT-
 
 Here is a [demo](https://vimeo.com/896083218?share=copy) that briefly summarizes our work.
 
+## **Install**
+```bash
+conda create -n intentqa python==3.8.8
+conda activate intentqa
+git clone https://github.com/sail-sg/VGT.git
+pip install -r requirements.txt
+```
+
 ## **Citation**
 
 ```
